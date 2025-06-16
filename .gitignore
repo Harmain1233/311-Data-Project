@@ -1,2 +1,14 @@
 data/*.csv
 *.csv
+# macOS system files
+.DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Tableau temporary files
+~*.twb*
+.~*
+
+# CSVs (optional, if you haven’t already excluded them)
+*.csv
